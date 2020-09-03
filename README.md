@@ -24,7 +24,7 @@ docker-compose up
 `curl -F "imagefile=@<filepath>" http://localhost:5000/image`
 
 
-	The response should extract text from the image (it works best on images of documents).
+The response should extract text from the image (it works best on images of documents).
 
 
 6. In Postman, run a post command on http://localhost:5000/passport. Go to body set imagefile as the key - set the body to choose file OR:
@@ -33,7 +33,7 @@ docker-compose up
 `curl -F "imagefile=@<filepath>" http://localhost:5000/passport`
 
 
-	The response should convert text in a passport image to JSON format.
+The response should convert text in a passport image to JSON format.
 
 
 
